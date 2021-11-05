@@ -1,0 +1,22 @@
+table {
+    width: 1200px;
+    border-collapse:separate;
+    border-spacing: 0 1px;
+ }
+
+th {
+    width: 20%;
+    height: 100px;
+    background: rgb(247, 244, 244);
+    padding: 2px;
+    }
+
+.image{
+    width:110px; 
+    height:110px; 
+    background: rgb(247, 244, 244); 
+    float:left; 
+    margin:auto; 
+    display: block;
+
+}

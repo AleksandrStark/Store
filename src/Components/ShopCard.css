@@ -1,0 +1,33 @@
+.card {
+    font-family: sans-serif;
+    background: rgb(247, 244, 244);
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 300px;
+    margin: 50px;
+    float: left;
+  }
+
+  .img {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    }
+.description {
+  text-align: center;
+}
+
+
+p {
+    text-align: left; 
+    color: red;
+}
+
+.btn {
+  position: relative;
+    cursor: pointer;
+    float: right;
+    color: red;
+  }
+    
