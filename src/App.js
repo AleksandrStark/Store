@@ -9,7 +9,6 @@ function App() {
 
   let [icon, setIcon]=useState("view_list")
 
-
   function onSwitch () {
 
     console.log("pressed");
@@ -28,7 +27,7 @@ function App() {
   return (
     <div>
       <div>
-        <IconSwitch 
+        <IconSwitch
           onSwitch={onSwitch}
           icon={icon}
         />
@@ -36,13 +35,11 @@ function App() {
       <div>
 
       {(icon==="view_module")? <ListView /> : <CardsView />}
-        
+
       </div>
     </div>
-   
+
   );
 }
 
 export default App
-  
-
